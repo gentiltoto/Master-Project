@@ -36,7 +36,7 @@ for i in range(len(df)):
             print(df['text_raw'].iloc[i])
             print('\n')
             print(df['text_work'].iloc[i])
-            print('Which sentiment: (pos/neg)')
+            print('Which sentiment: (pos/neu/neg)')
             sen = input()
             df['sen'].iloc[i] = sen
             print('\n------------------------\n')
